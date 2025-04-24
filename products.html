@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InvenTech E-Inventory</title>
+    <link id="theme-style" rel="stylesheet" href="css/style1.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">
+                <h1>InvenTech PC Shop</h1>
+            </div>
+            <ul class="nav-links">
+                <li><a href="index.html">About Us</a></li>
+                <li><a href="products.html">Products</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
+            </ul>
+            <button class="theme-switch" onclick="switchTheme()">Switch Theme</button>
+        </nav>
+    </header>
+	
+    <main>
+        <section id="products" class="products-section">
+            <h2>Our Products</h2>
+            <div class="filter-controls">
+                <select id="category-filter">
+                    <option value="all">All Categories</option>
+                    <option value="Laptop">Laptops</option>
+                    <option value="Desktop">Desktops</option>
+                    <option value="Monitor">Monitors</option>
+                    <option value="Accessories">Accessories</option>
+                    <option value="PC Component">PC Components</option>
+                </select>
+            </div>
+            <div id="product-container" class="product-grid"></div> <!-- This is where the products will appear -->
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2025 InvenTech PC Shop. All rights reserved.</p>
+    </footer>
+
+    <!-- Link to the external JavaScript file -->
+    <script src="js/script.js"></script>
+
+</body>
+</html>

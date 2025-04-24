@@ -1,0 +1,254 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+/* Header and Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background-color: #2c3e50;
+    color: white;
+}
+
+.logo h1 {
+    font-size: 1.5rem;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.nav-links a:hover {
+    color: #3498db;
+}
+
+.theme-switch {
+    color: black;
+	background-color: white;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background 0.3s ease, transform 0.2s ease;
+    margin-left: 20px; 
+}
+
+.theme-switch:hover {
+    background-color: white;
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    position: relative;
+    height: 100vh;
+    background-image:
+        linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)),
+        url('../image/dell_front_page_1.avif');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-align: center;
+    padding: 4rem 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-content {
+    z-index: 2;
+    position: relative;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.5rem;
+}
+
+
+/* Products Section */
+.products-section {
+    padding: 4rem 2rem;
+}
+
+.filter-controls {
+    margin-bottom: 2rem;
+    text-align: center;
+}
+
+#category-filter {
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+    padding: 2rem 0;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 1rem;
+    transition: transform 0.3s;
+}
+
+.product-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+}
+
+.product-card img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    border-radius: 4px;
+}
+
+.specs ul {
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+}
+
+.specs li {
+    margin-bottom: 4px;
+}
+
+.stock.out-of-stock {
+    color: red;
+    font-weight: bold;
+}
+
+.stock.in-stock {
+    color: green;
+    font-weight: bold;
+}
+
+/* About Section */
+.about-section {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #f8f8f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.about-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    color: #333;
+    text-align: center;
+}
+
+.about-section h2 {
+    font-size: 1.8rem;
+    margin-top: 2rem;
+    margin-bottom: 0.5rem;
+    color: #222;
+}
+
+.about-section p {
+    font-size: 1rem;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+    color: #555;
+}
+
+.about-section ul {
+    list-style-type: disc;
+    padding-left: 1.5rem;
+    color: #555;
+}
+
+.about-section ul li {
+    margin-bottom: 0.5rem;
+}
+
+/* Contact Section */
+.contact-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #f0f4f8;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.contact-section h1 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+    text-align: center;
+    color: #333;
+}
+
+.contact-section h2 {
+    font-size: 18px;
+    margin-top: 2rem;
+    text-align: center;
+    color: #222;
+}
+
+.contact-section p {
+    font-size: 1rem;
+    text-align: center;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+.contact-section ul {
+    list-style: none;
+    text-align: center;
+    padding: 0;
+    font-size: 1rem;
+    line-height: 1.8;
+    color: #444;
+}
+
+.contact-section ul li {
+    padding: 0.5rem 0;
+    border-bottom: 1px solid #ccc;
+}
+
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #2c3e50;
+    color: white;
+}
+

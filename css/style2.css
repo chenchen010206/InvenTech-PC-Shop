@@ -1,0 +1,237 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
+    background: #f5f7fa;
+    color: #444;
+}
+
+/* Header and Navigation */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 5%;
+    background: rgba(255, 255, 255, 0.8);
+    backdrop-filter: blur(10px);
+    box-shadow: 0 2px 10px rgba(0,0,0,0.05);
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.logo h1 {
+    font-size: 1.6rem;
+    color: #7f5af0;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 2rem;
+}
+
+.nav-links a {
+    color: #444;
+    text-decoration: none;
+    font-weight: 500;
+    position: relative;
+}
+
+.nav-links a::after {
+    content: "";
+    height: 2px;
+    width: 0;
+    background-color: #7f5af0;
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    transition: width 0.3s ease;
+}
+
+.nav-links a:hover::after {
+    width: 100%;
+}
+
+.theme-switch {
+    background-color: white;
+    color: #7f5af0;
+    padding: 8px 14px;
+    border: 1px solid #7f5af0;
+    border-radius: 25px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.theme-switch:hover {
+    background-color: #fce1ff;
+    transform: scale(1.05);
+}
+
+/* Hero Section */
+.hero {
+    height: 90vh;
+    background: linear-gradient(135deg, #ffe7e7, #d4fcf7);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 3rem 2rem;
+    border-bottom: 2px dashed #fddde6;
+}
+
+.hero-content {
+    max-width: 800px;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    color: #7f5af0;
+    margin-bottom: 1rem;
+}
+
+.hero p {
+    font-size: 1.2rem;
+    color: #555;
+}
+
+/* Products Section */
+.products-section {
+    padding: 4rem 2rem;
+}
+
+.filter-controls {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#category-filter {
+    padding: 0.6rem 1rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+}
+
+.product-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+    gap: 2rem;
+}
+
+.product-card {
+    background: rgba(255, 255, 255, 0.85);
+    border-radius: 16px;
+    padding: 1.5rem;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.05);
+    transition: 0.3s ease;
+}
+
+.product-card:hover {
+    transform: scale(1.02);
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 12px;
+    margin-bottom: 1rem;
+}
+
+.specs ul {
+    list-style: none;
+    padding-left: 0;
+    font-size: 0.95rem;
+    color: #666;
+}
+
+.stock.out-of-stock {
+    color: #d7263d;
+    font-weight: bold;
+}
+
+.stock.in-stock {
+    color: #28c76f;
+    font-weight: bold;
+}
+
+/* About Section */
+.about-section {
+    max-width: 900px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #ffffffc7;
+    border-radius: 20px;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.05);
+}
+
+.about-section h1,
+.contact-section h1 {
+    text-align: center;
+    font-size: 2.5rem;
+    color: #7f5af0;
+}
+
+.about-section h2 {
+    font-size: 1.6rem;
+    color: #444;
+    margin-top: 2rem;
+}
+
+.about-section p,
+.about-section ul {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 1rem;
+}
+
+/* Contact Section */
+.contact-section {
+    max-width: 800px;
+    margin: 4rem auto;
+    padding: 2rem;
+    background-color: #fef9f9;
+    border-radius: 20px;
+    box-shadow: 0 8px 20px rgba(0,0,0,0.05);
+}
+
+.contact-section h2{
+    color: #666;
+    text-align: center;
+    font-size: 18px;
+    margin-top: 20px;
+}
+
+.contact-section p {
+    color: #666;
+    text-align: center;
+}
+
+.contact-section ul {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    color: #444;
+    margin-top: 1rem;
+}
+
+.contact-section ul li {
+    margin: 0.5rem 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 1rem;
+    background-color: #fafafa;
+    border-top: 1px solid #eee;
+    color: #aaa;
+    font-size: 0.9rem;
+}
+
