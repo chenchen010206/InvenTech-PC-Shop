@@ -3,7 +3,7 @@
     <product id="1">
         <name>Dell XPS 13 (Snapdragon X Elite)</name>
         <category>Laptop</category>
-        <image>image/laptop1.avif</image>
+        <image>image/laptop1.png</image>
         <price>RM6,699</price>
         <stock>8</stock>
         <specs>
@@ -19,7 +19,7 @@
     <product id="2">
         <name>Apple MacBook Air M2 (13")</name>
         <category>Laptop</category>
-        <image>image/laptop2.jpeg</image>
+        <image>image/laptop2.png</image>
         <price>RM3,649</price>
         <stock>5</stock>
         <specs>
@@ -35,7 +35,7 @@
     <product id="3">
         <name>ASUS VivoBook 15 A1504</name>
         <category>Laptop</category>
-        <image>image/laptop3.avif</image>
+        <image>image/laptop3.png</image>
         <price>RM2,699 </price>
         <stock>0</stock>
         <specs>
@@ -51,7 +51,7 @@
     <product id="4">
         <name>Huawei MateBook D15</name>
         <category>Laptop</category>
-        <image>image/laptop4.jpg</image>
+        <image>image/laptop4.png</image>
         <price>RM3,828</price>
         <stock>4</stock>
         <specs>
@@ -67,7 +67,7 @@
     <product id="5">
         <name>Lenovo IdeaPad Slim 3 (Gen 8)</name>
         <category>Laptop</category>
-        <image>image/laptop5.avif</image>
+        <image>image/laptop5.png</image>
         <price>RM2,079</price>
         <stock>9</stock>
         <specs>
@@ -100,7 +100,7 @@
     <product id="7">
         <name>Dell Inspiron Desktop 3020</name>
         <category>Desktop</category>
-        <image>image/desktop2.avif</image>
+        <image>image/desktop2.png</image>
         <price>RM4,999</price>
         <stock>4</stock>
         <specs>
@@ -117,7 +117,7 @@
     <product id="8">
         <name>HP Pavilion Gaming Desktop</name>
         <category>Desktop</category>
-        <image>image/desktop3.jpg</image>
+        <image>image/desktop3.png</image>
         <price>RM3,799</price>
         <stock>7</stock>
         <specs>
@@ -134,7 +134,7 @@
     <product id="9">
         <name>Lenovo Legion Tower 5i Gen 8</name>
         <category>Desktop</category>
-        <image>image/desktop4.jpg</image>
+        <image>image/desktop4.png</image>
         <price>RM4,599</price>
         <stock>1</stock>
         <specs>
@@ -151,7 +151,7 @@
     <product id="10">
         <name>Alienware Aurora R16</name>
         <category>Desktop</category>
-        <image>image/desktop5.jpeg</image>
+        <image>image/desktop5.png</image>
         <price>RM7,499</price>
         <stock>4</stock>
         <specs>
@@ -168,7 +168,7 @@
     <product id="11">
         <name>Dell 24 Monitor - SE2425H</name>
         <category>Monitor</category>
-        <image>image/monitor1.avif</image>
+        <image>image/monitor1.png</image>
         <price>RM499</price>
         <stock>8</stock>
         <specs>
@@ -182,7 +182,7 @@
     <product id="12">
         <name>Xiaomi Monitor A24i</name>
         <category>Monitor</category>
-        <image>image/monitor2.jpg</image>
+        <image>image/monitor2.png</image>
         <price>RM399</price>
         <stock>0</stock>
         <specs>
@@ -196,7 +196,7 @@
     <product id="13">
         <name>ASUS TUF Gaming VG32VQ</name>
         <category>Monitor</category>
-        <image>image/monitor3.jpg</image>
+        <image>image/monitor3.png</image>
         <price>RM1,499</price>
         <stock>5</stock>
         <specs>
@@ -210,7 +210,7 @@
     <product id="14">
         <name>Samsung Odyssey G7</name>
         <category>Monitor</category>
-        <image>image/monitor4.jpeg</image>
+        <image>image/monitor4.png</image>
         <price>RM2,999</price>
         <stock>3</stock>
         <specs>
@@ -224,7 +224,7 @@
     <product id="15">
         <name>Acer Predator X34</name>
         <category>Monitor</category>
-        <image>image/monitor5.jpg</image>
+        <image>image/monitor5.png</image>
         <price>RM3,999</price>
         <stock>9</stock>
         <specs>
@@ -250,7 +250,7 @@
     <product id="17">
         <name>Razer BlackWidow V4 Keyboard</name>
         <category>Accessories</category>
-        <image>image/accessory2.avif</image>
+        <image>image/accessory2.png</image>
         <price>RM699</price>
         <stock>12</stock>
         <specs>
@@ -262,7 +262,7 @@
     <product id="18">
         <name>Anker USB-C Hub</name>
         <category>Accessories</category>
-        <image>image/accessory3.webp</image>
+        <image>image/accessory3.png</image>
         <price>RM199</price>
         <stock>19</stock>
         <specs>
@@ -274,7 +274,7 @@
     <product id="19">
         <name>Microsoft Surface Pen</name>
         <category>Accessories</category>
-        <image>image/accessory4.jpeg</image>
+        <image>image/accessory4.png</image>
         <price>RM499</price>
         <stock>23</stock>
         <specs>
@@ -286,7 +286,7 @@
     <product id="20">
         <name>JBL Tune 510BT</name>
         <category>Accessories</category>
-        <image>image/accessory5.webp</image>
+        <image>image/accessory5.png</image>
         <price>RM219</price>
         <stock>11</stock>
         <specs>
@@ -298,7 +298,7 @@
     <product id="21">
         <name>Intel Core i9-14900K</name>
         <category>PC Component</category>
-        <image>image/pc1.jpg</image>
+        <image>image/pc1.png</image>
         <price>RM3,000</price>
         <stock>4</stock>
         <specs>
@@ -311,7 +311,7 @@
     <product id="22">
         <name>NVIDIA GeForce RTX 4080</name>
         <category>PC Component</category>
-        <image>image/pc2.jpg</image>
+        <image>image/pc2.png</image>
         <price>RM6,000</price>
         <stock>9</stock>
         <specs>
@@ -324,7 +324,7 @@
     <product id="23">
         <name>Corsair Vengeance DDR5</name>
         <category>PC Component</category>
-        <image>image/pc3.webp</image>
+        <image>image/pc3.png</image>
         <price>RM700</price>
         <stock>0</stock>
         <specs>
@@ -337,7 +337,7 @@
     <product id="24">
         <name>Samsung 990 PRO NVMe SSD</name>
         <category>PC Component</category>
-        <image>image/pc4.jpeg</image>
+        <image>image/pc4.png</image>
         <price>RM599</price>
         <stock>13</stock>
         <specs>
@@ -350,7 +350,7 @@
     <product id="25">
         <name>ASUS ROG STRIX B650</name>
         <category>PC Component</category>
-        <image>image/pc5.webp</image>
+        <image>image/pc5.png</image>
         <price>RM999</price>
         <stock>3</stock>
         <specs>
